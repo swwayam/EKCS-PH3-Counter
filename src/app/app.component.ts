@@ -15,7 +15,11 @@ export class AppComponent {
   count = 1;
 
   increaseCounter(){
-    this.count++
+    // this.count++ means ->
+    // this.count = this.count + 1
+
+    // if you want to multiply you can't say this.count*2
+    this.count = this.count * 2
   }
  
   decreaseCounter(){
