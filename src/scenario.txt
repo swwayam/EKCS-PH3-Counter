@@ -1,0 +1,17 @@
+--- Angular Structure
+    -- All the angular code is written inside app folder
+    -- Components -> Small piece of code that can be reused by other component 
+    -- Functions and Events
+
+    **** Counter App ****
+
+--- Improving Counter App
+    -- We changed the counter app to an cart app
+    -- We added logic to notify user about the cart status
+
+--- Angular Derectives 
+    -- @if(){} -> We used it to implement logic into our html file
+
+--- Basic Events
+    -- (click)
+    -- Basic ecomm cart functionality

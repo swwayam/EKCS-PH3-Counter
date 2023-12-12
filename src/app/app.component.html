@@ -1,4 +1,26 @@
+
+<!-- if(this.count == 0){
+    <h1>Cart is empty</h1>
+} -->
+
+<!-- Angular allows us to use js properties in HTML  -->
+
+
+<!-- New method of using if in Angular HTML -->
+@if (count == 0) {
+    <h1>Cart is empty</h1>
+}
+
+@if (count == availableItem) {
+    <h1>Only {{availableItem}} available</h1>
+}
+
+<!-- Old method of using if in Angular HTML -->
+<!-- <h1 *ngIf="count == 0">Cart is ng if</h1> -->
+
 <button (click)="increaseCounter()">+</button>
+<h1>Cart : </h1>
 <h1>{{count}}</h1>
 <button (click)="decreaseCounter()">-</button>
 
+<button (click)="purchase()">Buy</button>
